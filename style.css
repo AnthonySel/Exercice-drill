@@ -1,0 +1,35 @@
+.stage {
+  display: block;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: grey;
+  outline: 2px dashed black;
+  height: 700px;
+  width: 600px;
+}
+
+.hero {
+  display: block;
+  position: relative;
+  outline: 2px dashed red;
+  left: 20px;
+  top: 20px;
+  height: 100px;
+  width: 100px;
+  animation-name: mymove;
+  animation-duration: 20s;
+  animation-direction: linear;
+  animation-delay: 0;
+}
+
+@keyframes mymove {
+  0%    {left: 20px; left: 200px}
+  20%   
+  40%
+  60%
+  80%
+  100%
+}
