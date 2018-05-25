@@ -30,6 +30,6 @@
   20%   {left: 450px; top: 20px;}
   40%   {left: 450px; top: 250px; transform: rotate(0deg);}
   60%   {left: 270px; top: 250px; transform: rotate(45deg);}
-  80%   {left: 50px; top: 250px; transform: rotate(90deg);}
-  100%  {left: 450px; top: 500px; border-radius: 100%;}
+  80%   {left: 50px; top: 250px; transform: rotate(90deg); border-radius: 0; background: none;}
+  100%  {left: 450px; top: 500px; border-radius: 50%; background: radial-gradient(#FBBA61, #F76B1C); border: transparent;}
 }
