@@ -1,35 +1,31 @@
 .stage {
-  display: block;
-  margin: auto;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: grey;
-  outline: 2px dashed black;
-  height: 700px;
-  width: 600px;
+  background-image: url("./Image/css_animation_exercice_4.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: auto;
+	width: 600px;
+	height: 600px;
 }
 
 .hero {
   display: block;
   position: relative;
-  outline: 2px dashed red;
+  border: 1px dashed red;
   left: 20px;
   top: 20px;
-  height: 100px;
-  width: 100px;
-  animation-name: mymove;
+  height: 73px;
+  width: 73px;
+  animation-name: myMove;
   animation-duration: 20s;
   animation-direction: normal;
   animation-delay: 0;
 }
 
-@keyframes mymove {
-  0%    {left: 50px; top: 20px;}
-  20%   {left: 450px; top: 20px;}
-  40%   {left: 450px; top: 250px; transform: rotate(0deg);}
-  60%   {left: 270px; top: 250px; transform: rotate(45deg);}
-  80%   {left: 50px; top: 250px; transform: rotate(90deg); border-radius: 0; background: none;}
-  100%  {left: 450px; top: 500px; border-radius: 50%; background: radial-gradient(#FBBA61, #F76B1C); border: transparent;}
+@keyframes myMove {
+  0%    {left: 50px; top: 20px;  border-color: red; height: 73px;  width: 73px;}
+  20%   {left: 500px; top: 20px;  border-color: red; height: 73px;  width: 73px;}
+  40%   {left: 500px; top: 200px; transform: rotate(0deg); border-color: red; height: 73px;  width: 73px;}
+  60%   {left: 270px; top: 200px; transform: rotate(45deg); border-color: red; height: 73px;  width: 73px;}
+  80%   {left: 20px; top: 205px; transform: rotate(90deg); border-radius: 0; background: none; border-color: #0900bd; height: 73px;  width: 73px;}
+  100%  {left: 440px; top: 440px; border-radius: 50%; background: radial-gradient(#FBBA61, #F76B1C); border-color: orange; height: 150px; width: 150px;}
 }
