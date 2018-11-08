@@ -5,8 +5,8 @@ Dans ce challenge, on nous a demandé de tester les animations en JavaScript. On
 # Langage 
 
 * Javascipt 
-* HTMl  
+* HTML
 
 # Résultat 
 
-Je vous propose de voir le résultat [ici]()
+Je vous propose de voir le résultat [ici](https://anthonysel.github.io/Exercice-drill/)
