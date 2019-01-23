@@ -4,7 +4,7 @@ Dans ce challenge, on nous a demandé de tester les animations en JavaScript. On
 
 # Langage 
 
-* Javascipt 
+* CSS 
 * HTML
 
 # Durée
