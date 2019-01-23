@@ -13,7 +13,7 @@ Dans ce challenge, on nous a demandé de tester les animations en JavaScript. On
 
 # Pourquoi? 
 
-Nous faire découvrir les animations JS.
+Nous faire découvrir les animations en CSS (@Keyframe).
 
 # Résultat 
 
